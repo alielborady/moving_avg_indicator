@@ -119,4 +119,4 @@ def main(identifier, no_days = 10):
 
 if __name__ == '__main__':
 
-    main("AMZN", 100)
+    main(identifier="AMZN", no_days=100)
