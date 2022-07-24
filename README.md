@@ -18,4 +18,12 @@ The saved json file amazon_stocks_2y.json has the daily data for amazon for the 
 
 3- Comment out line 54
 
-4- Change the identifier and no_days values in moving_avg_indicator.py line 122 as you wish
+4- Comment out line 60
+
+5- Uncomment line 61
+
+6- Comment out line 77
+
+7- Uncomment line 78
+
+8- Change the identifier and no_days values in moving_avg_indicator.py line 122 as you wish

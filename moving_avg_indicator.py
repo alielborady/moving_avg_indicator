@@ -58,6 +58,7 @@ def main(identifier, no_days = 10):
 
     json_obj = fetch(identifier=identifier)
     if len(amazon_stocks.keys()) == 0:
+    # if len(json_obj.keys()) == 0:
         print("Json response is empty")
         return
 
@@ -74,6 +75,7 @@ def main(identifier, no_days = 10):
     def first_available(date):
 
         last_date = dt.datetime.strptime(list(amazon_stocks.keys())[-1],'%Y-%m-%d').date()
+        # last_date = dt.datetime.strptime(list(json_obj.keys())[-1],'%Y-%m-%d').date()
         if (date - last_date).days > 0 :
             return ''
 
